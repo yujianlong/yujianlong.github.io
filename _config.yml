@@ -5,8 +5,8 @@ logo: /static/img/avatar.png
 github: https://github.com/yujianlong
 about: Freelance developer
 
-baseurl: "https://yujianlong.github.io/hcz-jekyll-blog"
-url: "https://yujianlong.github.io/hcz-jekyll-blog"
+baseurl: "https://yujianlong.github.io/"
+url: "https://yujianlong.github.io/"
 
 allowsearch: true
 
