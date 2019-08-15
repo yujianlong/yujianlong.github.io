@@ -5,8 +5,8 @@ logo: /static/img/avatar.png
 github: https://github.com/yujianlong
 about: Freelance developer
 
-baseurl: "https://yujianlong.github.io/"
-url: "https://yujianlong.github.io/"
+baseurl: ""
+url: "https://yujianlong.github.io"
 
 allowsearch: true
 
@@ -26,5 +26,3 @@ per_page: 20
 paginate_path: "/page:num/"
 markdown: kramdown
 gems: [jekyll-paginate, jekyll-gist]
-
-theme: jekyll-theme-slate
