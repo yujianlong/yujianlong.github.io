@@ -1,0 +1,20 @@
+<div id="gitalk-container"></div>
+<script type="text/javascript">
+    var gitalk = new Gitalk({
+  clientID: '47a8849ced63ef3eb23a', // GitHub Application Client ID
+  clientSecret: '33944ba23ff2afe6e5529256d3dd0f58702381b7', // GitHub Application Client Secret
+  repo: 'yujianlong.github.io',     // 存放评论的仓库
+  owner: 'yujianlong',          // 仓库的创建者，
+  admin: ['yujianlong'],        // 如果仓库有多个人可以操作，那么在这里以数组形式写出
+  id: location.pathname,      // 用于标记评论是哪个页面的，确保唯一，并且长度小于50
+  distractionFreeMode: true
+});
+gitalk.render('gitalk-container'); 
+window.onhashchange = function(event){
+      if(event.newURL.split('?')[0] !== event.oldURL .split('?')[0]) {
+        location.reload()
+      }
+    }
+</script>
+
+

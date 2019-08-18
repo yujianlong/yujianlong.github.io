@@ -29,4 +29,4 @@ type: page
 
 ## 评论
 
-{% include comments.html %}
+{% include comments1.html %}

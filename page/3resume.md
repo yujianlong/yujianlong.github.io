@@ -140,4 +140,4 @@ type: page
 [jekyllthemes]: http://jekyllthemes.org
 ## 评论
 
-{% include comments.html %}
+{% include comments1.html %}
