@@ -7,20 +7,20 @@
 
 # Site settings
 title: 健龙
-brief-intro: Front-end Dev Engineer
+brief-intro: JAVA后端攻城狮
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://yujianlong.github.io" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
 # other links
 twitter_username: 
-facebook_username: gaohaoyang.water
-github_username:  Gaohaoyang
-email: gaohaoyang126@126.com
+facebook_username: xxx.water
+github_username:  xxx
+email: xxx@126.com
 weibo_username: 3115521wh
-zhihu_username: gaohaoyang
-linkedIn_username: gaohaoyang
+zhihu_username: xxx
+linkedIn_username: xxx
 dribbble_username:
 
 description_footer: 本站记录我后端之旅的沿途风景！

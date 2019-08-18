@@ -2,7 +2,7 @@
 layout: page
 title: 简历
 permalink: /resume/
-icon: heart
+icon: bookmark
 type: page
 ---
 
@@ -11,11 +11,11 @@ type: page
 
 # 基本信息
 
-- **方浩** | 男 | 1990.10
-- 手机: 153 6999 7084
-- Email: fanghao90s@gmail.com
-- QQ: 744910240
-- 兴趣: 吉他 骑行 摄影
+- **XXX** | 男 | 1998.03
+- 手机: 187 1008 XXXX
+- Email: XXX@126.com
+- QQ: 3474XXXXXX
+- 兴趣: XXX XXX
 
 # 教育经历
 
@@ -81,7 +81,7 @@ type: page
 
 ### 个人博客
 
-独立设计并完成个人技术博客: http://unifreak.github.io
+独立设计并完成个人技术博客: http://xxx.github.io
 
 使用 jekyll, SASS 和 Liquid 模板语言, 搭建于 github page 平台
 
@@ -106,6 +106,7 @@ type: page
 - [themes.jekyllrc.org][jekyllrc]
 
 # 技术/工具
+---
 
 **语言**: PHP Python Shell SQL HTML/CSS SASS Markdown Regex JS ES6 Regex Liquid
 
@@ -114,6 +115,7 @@ type: page
 **工具**: Linux MySql Redis  SublimeText Git/GitLab/Github Jira Jekyll
 
 # 自我评价
+---
 
 为人稳重可靠, 兴趣广泛, 学习能力很强, 善于解决问题
 
