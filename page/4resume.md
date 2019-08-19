@@ -1,7 +1,7 @@
 ---
 layout: page
 title: mk简历
-permalink: /resume
+permalink: /resumezero
 icon: bookmark
 type: page
 ---
