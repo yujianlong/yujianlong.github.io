@@ -2,7 +2,7 @@
 layout: page
 title: 插件源
 permalink: /myrepo/
-icon: bookmark
+icon: flag-o
 type: page
 ---
 

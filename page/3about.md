@@ -2,21 +2,24 @@
 layout: page
 title: 关于我
 permalink: /about/
-icon: heart
+icon: github
 type: page
 ---
 
 * content
 {:toc}
 
-## 关于我
 
-<iframe src="https://githubbadge.appspot.com/yujianlong?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
+<!--<iframe src="https://githubbadge.appspot.com/yujianlong?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>-->
+
+## [捐赠](http://www.paypal.me/yujianlong)
+* [感谢您的爱心](http://www.paypal.me/yujianlong)
+
 
 ## 联系我
 
 * GitHub：[XXX](https://github.com/XXX)
-* email：XXX@126.com
+* email：[XXX@126.com](mailto:XXX@126.com)
 * [Weibo](http://weibo.com/3115521wh)
 * [知乎](https://www.zhihu.com/people/gaohaoyang)
 * [Facebook](https://www.facebook.com/gaohaoyang.water)
