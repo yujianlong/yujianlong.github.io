@@ -6,14 +6,28 @@
   <body>
 
     {% include header.html %}
+     <div id="search-container">
+       <input type="text" id="search-input" placeholder="搜索...">
+       <ul id="results-container"></ul>
+     </div>
 
-        {{ content }}
+    {{ content }}
 
     {% include footer.html %}
     {% include backToTop.html %}
+    <script src="{{ site.baseurl }}/simple-jekyll-search.min.js"></script>
     <script src="{{ " /js/main.js " | prepend: site.baseurl }}" charset="utf-8"></script>
     <script src="{{ " /js/smooth-scroll.min.js " | prepend: site.baseurl }}" charset="utf-8"></script>
     <script type="text/javascript">
+      SimpleJekyllSearch({
+          searchInput: document.getElementById('search-input'),
+          resultsContainer: document.getElementById('results-container'),
+          json: '/search.json',
+          searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>', // 文章列表模板
+          noResultsText: '没有搜索到文章', // 无搜索数据提示语
+          limit: 100, // 返回最大文章数
+          fuzzy: false // 是否模糊匹配
+      });
       smoothScroll.init({
         speed: 500, // Integer. How fast to complete the scroll in milliseconds
         easing: 'easeInOutCubic', // Easing pattern to use
