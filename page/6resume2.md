@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 简历样式2
+title: 简历2
 permalink: /resumetwo
 icon: bookmark
 type: page

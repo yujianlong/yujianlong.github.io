@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 简历样式1
+title: 简历1
 permalink: /resumeone
 icon: bookmark
 type: page

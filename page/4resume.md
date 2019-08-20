@@ -1,6 +1,6 @@
 ---
 layout: page
-title: mk简历
+title: 简历0
 permalink: /resumezero
 icon: bookmark
 type: page
