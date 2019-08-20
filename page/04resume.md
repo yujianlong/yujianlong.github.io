@@ -8,6 +8,7 @@ type: page
 
 * content
 {:toc}
+{% include dialog.html %}
 <center>
      <h1>XXX</h1>
      <div>

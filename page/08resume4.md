@@ -6,6 +6,7 @@ icon: bookmark
 type: page
 
 ---
+{% include dialog.html %}
 <style>
    
     h2,ul {
