@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /mana
+Disallow: /makepdf
+Disallow: /*.jpg$
+Disallow: /*.jpeg$
+Disallow: /*.gif$
+Disallow: /*.png$
+Disallow: /*.bmp$
+Sitemap: http://ocarinahome/sitemap.xml

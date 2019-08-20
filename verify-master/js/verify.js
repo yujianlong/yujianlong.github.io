@@ -166,7 +166,7 @@
         	vOffset: 5,
             vSpace : 5,
             explain : '向右滑动完成验证',
-            imgUrl : 'images/',
+            imgUrl : 'verify-master/images/',
             imgName : ['1.jpg', '2.jpg'],
             imgSize : {
 	        	width: '400px',
@@ -647,7 +647,7 @@
         	defaultNum : 4,	//默认的文字数量
 		    checkNum : 3,	//校对的文字数量
 		    vSpace : 5,	//间隔
-		    imgUrl : 'images/',
+		    imgUrl : 'verify-master/images/',
         	imgName : ['1.jpg', '2.jpg'],
         	imgSize : {
 	        	width: '400px',

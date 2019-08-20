@@ -13,18 +13,28 @@
     var myModal_1_obj = artModal({  //构建artModal实例
             element: document.getElementById('secretdialog'),
             open: function () {
-            $('#vericode').codeVerify({
-                  type : 2,
-                  figure : 100, //位数，仅在type=2时生效
-                  arith : 0,  //算法，支持加减乘，不填为随机，仅在type=2时生效
-                  width : '200px',
-                  height : '50px',
-                  fontSize : '30px',
-                  btnId : 'check-btn2',
-                  ready : function() {
-                  },
-                  success : function() {
-                    var yqcodeValue=$("#yqcode").val();
+
+      $('#vericode').slideVerify({
+          type : 2,   //类型
+            vOffset : 5,  //误差量，根据需求自行调整
+            vSpace : 5, //间隔
+            imgName : ['1.jpg', '2.jpg','3.jpg'],
+            imgSize : {
+              width: '380px',
+              height: '200px',
+            },
+            blockSize : {
+              width: '40px',
+              height: '40px',
+            },
+            barSize : {
+              width : '380px',
+              height : '40px',
+            },
+            ready : function() {
+          },
+            success : function() {
+              var yqcodeValue=$("#yqcode").val();
                     if(yqcodeValue == null || yqcodeValue == "" || yqcodeValue == "undefined" || yqcodeValue == undefined || yqcodeValue == "null"){
                         $("#errtip").html("访问密码不能为空");
                     }else if(md5(yqcodeValue)!=accesscode){
@@ -32,9 +42,9 @@
                     }else{
                         myModal_1_obj.close();  //关闭
                     }
-                  },
-                  error : function() {
-                     var yqcodeValue=$("#yqcode").val();
+            },
+            error : function() {
+                var yqcodeValue=$("#yqcode").val();
                     if(yqcodeValue == null || yqcodeValue == "" || yqcodeValue == "undefined" || yqcodeValue == undefined || yqcodeValue == "null"){
                       $("#errtip").html("访问密码不能为空");
 
@@ -43,9 +53,11 @@
                     }else{ 
                       $("#errtip").html("验证码不匹配");
                     }
-                   
-                  }
-                });
+
+            }
+            
+        });
+
             },
             position: 'top'
         });
@@ -59,13 +71,14 @@
         <div class="artModal-content">
             <div class="custom_style">
                 请输入访问密码和运算验证码
-                 <div>
+                <div>
                 <input id="yqcode" placeholder="请输入访问密码"/>
                 </div>
-                <div id="vericode" style="margin-top: 20px">
+                
+                <div id="vericode" style="margin-top:50px;">
                 </div>
                 <span id="errtip" style="color:red"></span>
-                <button type="button" id="check-btn2" class="verify-btn">确定</button>
+                
                 
             </div>
         </div>
