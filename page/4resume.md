@@ -8,6 +8,30 @@ type: page
 
 * content
 {:toc}
+<center>
+     <h1>XXX</h1>
+     <div>
+         <span>
+             <img src="/assetsresume/phone-solid.svg" width="18px">
+             180XXXXXXXX
+         </span>
+         ·
+         <span>
+             <img src="/assetsresume/envelope-solid.svg" width="18px">
+             zhengyc101@163.com
+         </span>
+         ·
+         <span>
+             <img src="/assetsresume/github-brands.svg" width="18px">
+             <a href="https://github.com/CyC2018">CyC2018</a>
+         </span>
+         ·
+         <span>
+             <img src="/assetsresume/rss-solid.svg" width="18px">
+             <a href="#">My Blog</a>
+         </span>
+     </div>
+ </center>
 
 # 基本信息
 

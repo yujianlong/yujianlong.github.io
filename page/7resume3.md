@@ -6,6 +6,13 @@ icon: bookmark
 type: page
 
 ---
+<style>
+   
+    h2,ul {
+          margin-left: 3em
+    }
+    
+</style>
 
  <center>
      <h1>XXX</h1>
