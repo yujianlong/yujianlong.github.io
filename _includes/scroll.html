@@ -1,0 +1,25 @@
+ <script type="text/javascript" src="/verify-master/js/jquery.min.js" ></script>
+ <script>
+    // 锚点跳转
+    function goToEle(e) {
+       // alert("fff");
+       // var $index = $(this).index();
+       // // alert($index)
+       // alert(e.target.id);
+       //   $("html, body").animate({
+       //      scrollTop: $("#" + e.target.id).offset().top
+       //  }, {
+       //          duration: 500,
+       //          easing: "swing"
+       //      });
+       //  return false;
+       var href = $(this).attr("href1");
+       // alert(href);
+       // alert(e.target.id);
+       var pos = $(href).offset().top;
+       $("html,body").animate({scrollTop: pos}, 500); 
+       return false;
+    }
+
+    $(document).on("click","#content-side li a",goToEle);
+  </script>

@@ -166,5 +166,5 @@ type: page
 [jekyllCn]: http://jekyllcn.com
 [jekyllthemes]: http://jekyllthemes.org
 ## 评论
-
+{% include scrollwithoutjquery.html %}
 {% include comments1.html %}
