@@ -150,7 +150,7 @@ function moveTOC() {
                 if (!aTags[i].hasAttribute('data-scroll')) {
                   aTags[i].setAttribute('data-scroll','');
                    aTags[i].setAttribute('href1',aTags[i].getAttribute("href"));
-                    aTags[i].removeAttribute('href','');
+                    aTags[i].setAttribute('href','');
                 }
 
             }
