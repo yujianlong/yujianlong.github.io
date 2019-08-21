@@ -7,6 +7,8 @@
 
 # Site settings
 accesscode: d7f0da07cb9aa70754b34c67dac2b165
+git_clientID: 36f9328439321ad5bed9
+git_clientSecret: a83d9ec1f1d2a23d0761a885cb3caef1409db0df
 title: 健龙
 brief-intro: JAVA后端攻城狮
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -24,7 +26,7 @@ zhihu_username: xxx
 linkedIn_username: xxx
 dribbble_username:
 
-description_footer: 本站记录我后端之旅的沿途风景！
+description_footer: 心若在梦就在重头再来！
 
 # comments
 # two ways to comment, only choose one, and use your own short name

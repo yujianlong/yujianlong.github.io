@@ -7,6 +7,7 @@
 
     {% include header.html %}
      <div id="search-container">
+      
        <input type="text" id="search-input" placeholder="搜索...">
        <ul id="results-container"></ul>
      </div>
@@ -23,7 +24,7 @@
           searchInput: document.getElementById('search-input'),
           resultsContainer: document.getElementById('results-container'),
           json: '/search.json',
-          searchResultTemplate: '<li><a href="{url}" title="{tags}">{title}</a></li>', // 文章列表模板
+          searchResultTemplate: '<li><i class="fa fa-envelope-o"></i><a href="{url}" title="{tags}">{title}</a></li>', // 文章列表模板
           noResultsText: '没有搜索到文章', // 无搜索数据提示语
           limit: 100, // 返回最大文章数
           fuzzy: false // 是否模糊匹配
