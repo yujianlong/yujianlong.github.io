@@ -15,20 +15,25 @@ type: page
 ## [捐赠](http://www.paypal.me/yujianlong)
 * [感谢您的爱心](http://www.paypal.me/yujianlong)
 
+## 简介
+   **老旧java攻城狮一枚，擅长基于 java8围绕 spring boot** **开发和提升性能，深入了解多线程以及相关并发框架，喜欢钻研和实践**
+
 
 ## 联系我
 
-* GitHub：[XXX](https://github.com/XXX)
-* email：[XXX@126.com](mailto:XXX@126.com)
-* [Weibo](http://weibo.com/3115521wh)
-* [知乎](https://www.zhihu.com/people/gaohaoyang)
-* [Facebook](https://www.facebook.com/gaohaoyang.water)
-* [豆瓣](https://www.douban.com/people/42525035/)
-* [豆瓣音乐人-浩阳的小站](https://site.douban.com/haoyangaiyinyue/)
+* <i class="fa  fa-github-alt"></i>[github](https://github.com/yujianlong)
+* <i class="fa  fa-envelope-o"></i>[email](mailto:yjl_yujianlong@126.com)
+* <i class="fa  fa-facebook"></i>[facebook](https://www.facebook.com/yjl.yujianlong)
+* <i class="fa  fa-twitter"></i>[twitter](https://twitter.com/yujianlongyjl)
+* <i class="fa  fa-linkedin"></i>[linkedin](https://www.linkedin.com/in/ocarinahome)
 
-## 友情链接
 
-[羡辙杂俎](http://zhangwenli.com/blog) \| [Anotherhome](https://www.anotherhome.net) \| [Reverland](http://reverland.org/) \| [ZhiLi](http://lizhipower.github.io/) \| [Simmer](http://simmer-jun.github.io/) \| [awthink](http://awthink.net/) \| [Aralic](http://aralic.github.io/) \| [zchen9](http://www.chen9.info/) \| [wuhuaji](http://wuhuaji.me/) \| [lisheng](http://www.lishengcn.cn/) \| [薛彬XueBin](http://axuebin.com/blog/) \| [TBOOX](http://www.tboox.org/cn/) \|  [Ling](http://linglinyp.com/)
+## 生活照
+
+![IMG_5776-w400](/lifephoto/IMG_4160.JPG)
+![IMG_5776-w400](/lifephoto/IMG_6951.jpg)
+![IMG_5776-w400](/lifephoto/IMG_9571.JPG)
+
 
 ## 评论
 {% include scroll.html %}

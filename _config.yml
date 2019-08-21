@@ -17,13 +17,13 @@ url: "" # the base hostname & protocol for your site
 permalink: /:year/:month/:day/:title/
 
 # other links
-twitter_username: 
-facebook_username: xxx.water
-github_username:  xxx
-email: xxx@126.com
+twitter_username: yujianlongyjl
+facebook_username: yjl.yujianlong
+github_username:  yjlfish
+email: yjl_yujianlong@126.com
 weibo_username: 3115521wh
 zhihu_username: xxx
-linkedIn_username: xxx
+linkedIn_username: ocarinahome
 dribbble_username:
 
 description_footer: 心若在梦就在重头再来！
