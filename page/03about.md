@@ -35,9 +35,11 @@ type: page
 
 ## 生活照
 
-![IMG_5776-w400](/lifephoto/IMG_4160.JPG)
-![IMG_5776-w400](/lifephoto/IMG_6951.jpg)
-![IMG_5776-w400](/lifephoto/IMG_9571.JPG)
+<img src="/lifephoto/IMG_4160.JPG" height="150px"/>
+<img src="/lifephoto/IMG_6951.jpg" height="150px"/>
+<img src="/lifephoto/IMG_9571.JPG" height="150px"/>
+<img src="/lifephoto/IMG_5056.JPG" height="150px"/>
+
 
 
 ## 评论

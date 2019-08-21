@@ -8,163 +8,208 @@ type: page
 
 * content
 {:toc}
-{% include dialog.html %}
+{% include dialog2.html %}
 <center>
-     <h1>XXX</h1>
+
+     <h1>   <img src="/lifephoto/headpic.png" height="50px"/>于健龙 </h1>
      <div>
          <span>
              <img src="/assetsresume/phone-solid.svg" width="18px">
-             180XXXXXXXX
+             18710082816
          </span>
-         ·
+         
          <span>
              <img src="/assetsresume/envelope-solid.svg" width="18px">
-             zhengyc101@163.com
+             yjl_yujianlong@126.com
          </span>
-         ·
+         
          <span>
              <img src="/assetsresume/github-brands.svg" width="18px">
-             <a href="https://github.com/CyC2018">CyC2018</a>
+             <a href="https://github.com/yujianlong">yujianlong</a>
          </span>
-         ·
+         
          <span>
              <img src="/assetsresume/rss-solid.svg" width="18px">
-             <a href="#">My Blog</a>
+             <a href="https://yujianlong.top">博客</a>
          </span>
      </div>
  </center>
 
 # 基本信息
 
-- **XXX** | 男 | 1998.03
-- 手机: 187 1008 XXXX
-- Email: XXX@126.com
-- QQ: 3474XXXXXX
-- 兴趣: XXX XXX
+- **于健龙** | 男 | 1988.03
+- 手机: 187 1008 2816
+- Email: yjl_yujianlong@126.com
+- 微信: 同手机
+- 兴趣: code、travel
 
 # 教育经历
 
-- 2010.9~2013.6 河南商业高等专科<small>(现已升本为河南牧业经济学院)</small> 计算机系网络技术专业
+- 2006.9~2010.9 华北工学院(中北大学) 软件工程学士
+
 
 # 工作经历
 
 
-### 优信集团 <small>2016.10-至今</small>
+### 明特量化 <small>高级java开发工程师 2019.03-2019-06</small>
 
-...[待补充]
-
-
-### 北京飞马国际供应链管理有限公司 <small>2015.11-2016.8</small>
-
-前期负责ERP系统的票据管理模块:
-
+一期负责借前模块
 - 完成数据库设计
 - 框架基础数据层的编码
-
-后被调到前台研发部, 负责主站[大宗网][dazong]:
-
-- 用户中心模块的整体改版升级
-- 消息服务模块的接口设计和编码工作
-- 上传服务模块的接口设计和编码工作
-
-以上工作完成后, 转至后台研发部, 负责后台项目的管理工作:
-
-- 和产品经理通力合作, 负责运营系统和 CRM 项目的需求评估与把控
-- 和测试人员一道, 对项目进行排期, 并跟踪项目进度, 实现产品迭代更新
-- 细化并分配各项需求任务给开发同事, 并确保各项规范(数据库, 代码, git)的实施
-- 和开发同事一道, 同其他系统交互配合, 完成以下开发工作
-    + 运营系统:
-        * 交易管理(贸易参数, 交易时间, 消息开关, 合同, 违约, 申诉等)
-        * 审核管理(客户审核, 公司审核)
-        * 监控管理(运营监控, 违约监控, 数据报表, 日志查询)
-        * 系统管理(菜单, 角色, 权限)
-    + CRM 系统:
-        * 分类管理(商品, 新闻)
-        * 内容管理(新闻, 焦点图, 友情链接, 网站碎片)
-        * 系统管理(菜单, 角色, 权限)
-        * 对移动端 API 实现
+- aws云存储
+- face++人脸检测认证
+    
 
 
-### 武汉邦普特进出口有限公司 <small>2014.3~2015.10</small>
+### 暴风金融 <small>高级java开发工程师 2017.04-2018.07</small>
 
-完成商城网站后台管理的诸多功能需求, 如:
+主要负责营销管理平台和智盈产品开发和改造，基于 java8特性+spring boot +redis 
++jpa+mybatis+disruptor+NIO+阿里 ons 消息队列 ，工作中负责主要设计，分配和实施，对多线程方面以及
+性能优化方面颇有实践经历
 
-- 产品信息一键拷贝功能
-- [英][en], [法][fr], [日][jp], [德][de] 四个站点产品信息同步功能(主从复制)
-- 各种商品促销手段(折扣, 组合, 秒杀)的实现
-- 以及比如销售人员的绩效计算, banner 管理, 支付接口等功能
 
-与仓库系统程序员合作完成网站和仓库系统的库存管理功能
+### 联通时科 <small>项目主程 2014.07~2017.04</small>
 
-与 IOS 程序员合作完成整套 [APP][app] 的 API 实现
+主要负责沃运营随身学，是联通旗下针对渠道用户培训考核统计等方面的应用。基于 Jfinal +Shiro+redis+mysql+lucene+httpclient+Beetl+Bootstrap+Ueditor+Jwplayer
++Shell
 
-在网站系统中加入 Redis 缓存层, 有效降低数据库符合, 提高网站的加载速度
+### 新华网 <small>java研发 2011.08~2014.07</small>
 
-管理  Linux 服务器的配置的运行, 如网站服务器的更换, 性能监控 , 定时任务等<br><br>
+参与了新华炫知内容管理平台 CMS 的开发和维护，新华群组和新华好友的开发。基于
+SpringMVC+Mysql+Hibernate+Mybatis+Redis+MongoDb+Dubbo+Neo4j+Freemarker+Weblogic
 
-# 开源项目经验
+
+
+# 项目经验
+
+### 明特量化借前   <small>2019.03-2019-06</small>
+负责借前开发，jwt鉴权,人脸检测,aws云存储，数据库设计，通用工具，业务开发等。主要用到的技术有:springboot，mybatisplus,redis，mysql，zk等。
+
+
+### 暴风金融后台   <small>2017.04-2018-07</small>
+主要工作内容有 营销一期，负责用户信息管理、用户标签、理财红包、红包发放、抽奖；营销二期，负责卡券大类、卡券批次，加息券，消息推送，批量审核，成本统计，用户导入标签；营销二期-活动管理，负责触发条件管理，活动触发卡券发放、活动查看，消息模板管理；安全漏洞修复负，责报文非对称加密解密逻辑，注解解析；数据迁移，负责搭建工程，模块分工，多线程处理相关数据并生成sql文件；加息券收益展示接口；活期产品改造；循环产品和企业散标开发以及用户中心开发的负责人。项目基于spring boot，主要技术用到jpa，消息队列，redis，java8，disruptor等
+
+### 历客-个人简历博客 
+负责整体架构设计，全部代码编写 
+厉客-个人简历博客是为个人准备的简历和博客的网站，目前主要为技术人员打造，后台完备 简历录入全 面，可以录入作品信息，博客可以提交 markdown 格式的文章，功能炫丽 主要技术有 Jfinal Bootstrap Ueditor Freemarker Beetl Java-Mail Shiro Ehcache 等 
+
+### 联通-随身学项目-大屏幕  <small>2016.02-2016.04</small>
+将分析结果放到提供的远程oracle数据库把文件发送到远程的ftp，因集团需要将统计分析的课程，人员进行大屏幕轮播
+
+### 联通-随身学项目-内网外网同步  <small>2015.12-2016.02</small>
+通过ganymed-ssh用shell 编写代码进行读取日志文件同步课件文件
+随身学系统在特殊情况下需要同步日志，课件，这需要外网和内网的数据同步
+
+### 联通-随身学项目-日志统计  <small>2015.09-2015.12</small>
+实时的搜索文件索引，定时任务固定时间作分析统计
+随身学项目逐步受到重视，它的统计分析需求逐渐迫切，比如分析最热课件，最热课程，学习课程最多的用户排行
+
+### 联通-随身学项目-权限重构  <small>2015.08-2015.09</small>
+权限的梳理，重新设计表，修改原来代码，用户导入
+在本来只有几个角色的情况下，一下子多出了32个省份再加上社会渠道，非社会渠道，所以必须很好的理清权限的问题，使之既能应付现在的使用也能应付以 后的扩 展性。随之而来的是很多需要导入的各个渠道的用户信息。
+
+
+### 联通-轻论坛  <small>2015.06-2015.07</small>
+论坛的搭建，数据库设计
+联通的一个轻型论坛，本来是我主要做的，在搭建完整体框架之后我就被抽调回原来的项目中，因为原来项目比较紧急。论坛主要是用来做内部使用
+
+### 联通-随身学项目-管理平台的改版  <small>2015.05-2015.06</small>
+基本模块的管理，权限分配管理，日志管理，导出分析结果
+原来的管理平台扩展性不好，不能应对未来的各个功能添加，在改版之后，可扩展性提高，因为 Bootstrap的易于编写和响应式设计，使得用户可以在移动端 操作。 管理平台需要实现用户的管理，用户权限的分配 (集团用户，渠道用户，省份等)，培训管理，课件管理 ，考题录入和管理 ，培训类型管理，考核类型管 理，热点问题管理，热点类型管理，客户端app下载和版本管理(后来迁移到 APPSTORE),角色，日志分析，导出CSV和excel，课件同步，培训列表的权限管理。
+
+### 联通-随身学项目-PC端  <small>2015.02-2015.03</small>
+登录以及从沃运营 sso登录绑定手机号，查看培训考核热点问题收藏
+pc 端是给不能用手机的一线联通工作者使用的，他们只能用内网登录。主要做主服务端一些接口的交互显示，实现登录，查看培训，公告等功能
+
+### 联通-随身学项目-流媒体服务端  <small>2014.09-2015.01</small>
+编写文件上传，下载，以及同步接口
+流媒体服务端负责客户端，Ios，Android 在线浏览和下载 ppt，pdf，doc，MP4格式的课件以及同步各个渠道上传的课件到内外网
+
+
+### 联通-随身学项目-主服务端  <small>2014.07-2014.09</small>
+制定接口文档，设计数据库结构，编写接口，设计权限
+随身学项目是联通为集团和社会渠道 ，省份渠道，非社会渠道人员做 的一个在线培训考核平台在主服务 端，首先做架构的设计，数据库的设计，用户权限和角色 的设 计，远程认证服务， 培训的业务，考核业务，热点问题，收藏，公告，分享，评论 ，版本更新。
+
+### 新华网-关系中心  <small>2014.04-2014.05</small>
+创建和更新好友，关注，阻止和黑名单，查找和保存用户节点
+关系中心是运用图形化数据库 Neo4j，对用户节点，好友、关注、阻止、屏蔽、黑名单等关系进行操作的，只针对数据进行操作的外部接口，提供给第三方调用。
+
+### 新华网-用户中心  <small>2014.02-2014.03</small>
+查询用户，创建用户，以及 redis 缓存相关操作
+用户中心采用 Spring-MongoDB，做只针对数据的操作，CRUD，是对原有基于 mysql 的系统的调整
+
+### 新华网-用户关系系统  <small>2013.07-2014.01</small>
+负责对关系、节点操作，隐私设置，提高查询效率，对节点关系缓存
+用户关系系统是根据图形化数据库 neo4j 做的，用于操作用户关系和节点的系统，是对原有好友系统的改造，提升了效率
+
+### neo4j 数据导出  <small>2013.06-2013.07</small>
+导出用户节点，用户关系(好友、关注、黑名单、阻止等)
+将 mysql 数据库存储的用户，关系导出为 neo4j 的图形化数据库，包括关系，节点和索引，为后来的关系系统做数据支持。
+
+### 新华好友系统  <small>2013.02-2013.06</small>
+利用图形数据库查找好友动态和用户关系相关信息
+好友系统是一个包含用户信息，关系，动态，博客等的一个集 合
+ 
+### 新华群组  <small>2012.08-2013.02</small>
+创建关闭活动、，设置解除资深成员，调整缓存的顺序
+新华群组是一个类似豆瓣群组的一个 应用，有群，讨论组 ，博客，活动，相册，群公告，共享文件等
+
+### 自动化部署平台  <small>2012.03-2012.08</small>
+手动 job 管理模块，任务调度 job 管理模块，工作流操作模块
+主要用 ant 编译并部署即将上线的项目，用到 mybatis3.0和 SpringMVC3.1，以及 quartz 动态控制任务调 度，workflow 来排列工作流的顺序
+
+### 新华炫知  <small>2011.08-2012.03</small>
+负责企业管理模块，稿件管理模块，敏感词过滤，特权付费企业模块
+新华炫知是一种稿件管理平台，对发布的稿件做出审核编辑的cms平台，负责国际和国内新闻发布，稿件发布，以及付费企业特权等。
+
+
 
 ### 个人博客
 
-独立设计并完成个人技术博客: http://xxx.github.io
+组合设计并完成个人技术博客: [https://yujianlong.top](https://yujianlong.top)
 
 使用 jekyll, SASS 和 Liquid 模板语言, 搭建于 github page 平台
+独立组合 gitalk评论系统 站内搜索 加密内容 统计 验证码 锚点优化 多种resume模板
+搭建cydia源YJLFISH
 
-已被 [jekyllthemes.org][jekyllthemes] 和 [themes.jekyllrc.org][jekyllrc] 收录<br><br>
 
-### [SublimeText DirectEdit][directEdit] 插件
 
-用于快速打开预配置的常用文件(比如 php.ini, host, vhost 配置文件等)
 
-使用 Python 开发<br><br>
 
-### [SublimeText DirectCopy][directCopy] 插件
+### 其他相关认证
+oracle认证scjp、scwcd 2011
 
-用于快速复制预配置的文本内容
+<img src="/lifephoto/scjp.jpg" height="150px"/>
+<img src="/lifephoto/scwcd.jpg" height="150px"/>
+<img src="https://txyimg-1300036828.cos.ap-beijing.myqcloud.com/cert/scjp.jpg" height="150px"/>
+<img src="https://txyimg-1300036828.cos.ap-beijing.myqcloud.com/cert/scwcd.jpg" height="150px"/>
 
-使用 Python 开发<br><br>
 
-### 参与贡献
 
-- [jekyll 中文][jekyllCn]
-- [jekyllthemes.org][jekyllthemes]
-- [themes.jekyllrc.org][jekyllrc]
+
 
 # 技术/工具
 ---
 
-**语言**: PHP Python Shell SQL HTML/CSS SASS Markdown Regex JS ES6 Regex Liquid
+**语言**: java  Shell SQL JS HTML/CSS  Markdown 
 
-**框架**: Laravel/Lumen Flask Yii ThinkPHP Bootstrap jQuery/jQueryUI
+**框架**: SpringBoot SpringCloud SpringMVC Dubbo Guns Bootstrap jQuery/jQueryUI
 
-**工具**: Linux MySql Redis  SublimeText Git/GitLab/Github Jira Jekyll
+**工具**: Linux MySql Redis Zookeeper SublimeText Git/GitLab/Github Jira Jekyll 
 
 # 自我评价
 ---
-
+88年java攻城狮一枚，擅长基于 java8围绕 spring boot 开发和提升性能，深入了解多线程以及相关并发框架，喜欢钻研和实践，
 为人稳重可靠, 兴趣广泛, 学习能力很强, 善于解决问题
 
 注重细节, 注重代码美学和安全性, 关注并热心学习和应用新技术
 
 注重 OOP ,设计模式等软件架构方面知识的学习与使用, 认为编程不仅是实用的技术, 也是一门艺术
 
-英文能力强(CET6), 经常阅读外文技术书籍, 并在 IRC 网络上和外国牛人探讨技术问题
-
-兴趣广泛, 对 PHP 开发的边角相关技术和理论也广泛涉猎(前端, 设计等)
+英文能力强(CET6), 经常阅读外文技术书籍
 
 
 
-[en]: http://bornprettystore.com
-[fr]: http://neejolie.fr
-[jp]: http://harunouta.com
-[de]: http://nurbesten.de
-[dazong]: http://dazong.com
-[directEdit]: https://packagecontrol.io/packages/DirectEdit
-[directCopy]: https://packagecontrol.io/packages/DirectCopy
-[ryhudong]: http://ryhudong.com
-[app]: https://itunes.apple.com/us/app/born-pretty/id986675944?mt=8
-[jekyllCn]: http://jekyllcn.com
-[jekyllthemes]: http://jekyllthemes.org
 ## 评论
 {% include scrollwithoutjquery.html %}
 {% include comments1.html %}
