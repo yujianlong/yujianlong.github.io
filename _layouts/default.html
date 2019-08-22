@@ -6,9 +6,9 @@
   <body>
 
     {% include header.html %}
-     <div id="search-container">
+     <div id="search-container" >
       
-       <input type="text" id="search-input" placeholder="搜索...">
+       <input type="text" id="search-input"  placeholder="搜索...">
        <ul id="results-container"></ul>
      </div>
 
@@ -26,7 +26,7 @@
           json: '/search.json',
           searchResultTemplate: '<li><i class="fa fa-envelope-o"></i><a href="{url}" title="{tags}">{title}</a></li>', // 文章列表模板
           noResultsText: '没有搜索到文章', // 无搜索数据提示语
-          limit: 100, // 返回最大文章数
+          limit: 15, // 返回最大文章数
           fuzzy: false // 是否模糊匹配
       });
       smoothScroll.init({
@@ -37,7 +37,7 @@
     </script>
     <!-- <script src="{{ " /js/scroll.min.js " | prepend: site.baseurl }}" charset="utf-8"></script> -->
   </body>
-{% include gitribbon.html %}
+
 </html>
 
 

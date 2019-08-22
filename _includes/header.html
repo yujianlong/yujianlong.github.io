@@ -1,34 +1,44 @@
-<header id="top">
-    <div class="wrapper">
-        <a href="{{ site.baseurl }}/" class="brand">{{ site.title }}</a>
-        <small> <a href="{{ site.baseurl }}/resumethree">{{site.brief-intro}}</a></small>
-        <button id="headerMenu" class="menu" style="background:#68899f"><i class="fa fa-bars" ></i></button>
-        <nav id="headerNav">
-            <ul>
-                <li>
-                    {% if page.url == '/' %}
-                    <a class="active" href="{{site.baseurl}}/">
-                        {% else %}
-                    <a href="{{site.baseurl}}/">
-                    {% endif %}
-                        <i class="fa fa-home"></i>首页
-                    </a>
-                </li>
+<link href="/greedynav/greedynav.css" rel="stylesheet" type="text/css" >
 
-                {% for my_page in site.pages %}
+<script src="/greedynav/greedynav.js"></script>
+
+<header id="top">
+    <nav id="headerNav" class='greedy'>
+        <h1 ><a href="{{ site.baseurl }}/" style="color:#ffffff;font-size:0.8em;z-index:99">{{ site.title }}</a>
+            &nbsp;&nbsp;
+         <a href="{{ site.baseurl }}/resumethree" style="color:#ffffff ;font-size:0.5em;z-index:99"> {{site.brief-intro}}</a>
+         </h1>
+         <h2>
+
+         </h2>
+        
+         
+      <ul class='links' style="list-style:none">
+        
+       
+        {% for my_page in site.pages %}
                     {% if my_page.type == 'page' %}
-                    <li>
+                    
                         {% if my_page.url == page.url %}
-                        <a class="active" href="{{ my_page.url | prepend: site.baseurl }}">
+                        <li style="background:#b2666a">
+                            <a  href="{{ my_page.url | prepend: site.baseurl }}">
+                             <i class="fa fa-{{my_page.icon}}"></i>{{ my_page.title }}
+                             </a>
+                        </li>
                             {% else %}
-                        <a href="{{ my_page.url | prepend: site.baseurl }}">
-                        {% endif %}
+                        <li>
+                            <a href="{{ my_page.url | prepend: site.baseurl }}">
                             <i class="fa fa-{{my_page.icon}}"></i>{{ my_page.title }}
-                        </a>
-                    </li>
+                            </a>
+                        </li>
+                        {% endif %}
+                        
+                    
                     {% endif %}
                 {% endfor %}
-            </ul>
-        </nav>
-    </div>
+      </ul>
+      <button id="headerMenu" class="menu" style="background:#68899f;color:#ffffff"><i class="fa fa-bars" ></i></button>
+      <ul class='hidden-links hidden'></ul>
+    </nav>
+
 </header>
