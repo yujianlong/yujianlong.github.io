@@ -178,9 +178,6 @@ pc 端是给不能用手机的一线联通工作者使用的，他们只能用�
 
 ### 其他相关认证
 oracle认证scjp、scwcd 2011
-
-<img src="/lifephoto/scjp.jpg" height="150px"/>
-<img src="/lifephoto/scwcd.jpg" height="150px"/>
 <img src="https://txyimg-1300036828.cos.ap-beijing.myqcloud.com/cert/scjp.jpg" height="150px"/>
 <img src="https://txyimg-1300036828.cos.ap-beijing.myqcloud.com/cert/scwcd.jpg" height="150px"/>
 
