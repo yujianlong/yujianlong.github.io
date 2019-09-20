@@ -67,3 +67,5 @@ whitelist:
 gems: [jekyll-paginate]
 paginate: 6
 
+
+theme: jekyll-theme-cayman
