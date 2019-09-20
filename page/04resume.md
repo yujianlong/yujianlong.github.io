@@ -11,25 +11,25 @@ type: page
 {% include dialog2.html %}
 <center>
 
-     <h1>   <img src="/lifephoto/headpic.png" height="50px"/>于健龙 </h1>
+     <h1>   <img src="{{site.baseurl}}/lifephoto/headpic.png" height="50px"/>于健龙 </h1>
      <div>
          <span>
-             <img src="/assetsresume/phone-solid.svg" width="18px">
+             <img src="{{site.baseurl}}/assetsresume/phone-solid.svg" width="18px">
              18710082816
          </span>
          
          <span>
-             <img src="/assetsresume/envelope-solid.svg" width="18px">
+             <img src="{{site.baseurl}}/assetsresume/envelope-solid.svg" width="18px">
              yjl_yujianlong@126.com
          </span>
          
          <span>
-             <img src="/assetsresume/github-brands.svg" width="18px">
+             <img src="{{site.baseurl}}/assetsresume/github-brands.svg" width="18px">
              <a href="https://github.com/yujianlong">yujianlong</a>
          </span>
          
          <span>
-             <img src="/assetsresume/rss-solid.svg" width="18px">
+             <img src="{{site.baseurl}}/assetsresume/rss-solid.svg" width="18px">
              <a href="https://yujianlong.top">博客</a>
          </span>
      </div>
