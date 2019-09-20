@@ -1,20 +1,40 @@
-<div id="gitalk-container"></div>
-<script type="text/javascript">
-    var gitalk = new Gitalk({
-  clientID: '{{site.git_clientID}}', // GitHub Application Client ID
-  clientSecret: '{{site.git_clientSecret}}', // GitHub Application Client Secret
-  repo: 'yujianlong.github.io',     // 存放评论的仓库
-  owner: 'yujianlong',          // 仓库的创建者，
-  admin: ['yujianlong'],        // 如果仓库有多个人可以操作，那么在这里以数组形式写出
-  id: location.pathname,      // 用于标记评论是哪个页面的，确保唯一，并且长度小于50
-  distractionFreeMode: true
-});
-gitalk.render('gitalk-container'); 
-window.onhashchange = function(event){
-      if(event.newURL.split('?')[0] !== event.oldURL .split('?')[0]) {
-        location.reload()
-      }
+<style>
+    .bluePrint {
+        background-color: #b5f1eb;
+        background-image: linear-gradient(45deg, #d1e4c9 25%, transparent 0),
+        linear-gradient(45deg, transparent 75%, #d1e4c9 0),
+        linear-gradient(45deg, #d1e4c9 25%, transparent 0),
+        linear-gradient(45deg, transparent 75%, #d1e4c9 0);
+        background-position: 0 0, 15px 15px, 15px 15px, 30px 30px;
+        background-size: 30px 30px;
     }
-</script>
+    .bluePrint1 {
+        background-color:#b5d2e6;
+        background-image: linear-gradient(#85b9de 2px, transparent 0),
+        linear-gradient(90deg, white 2px, transparent 0),
+        linear-gradient(rgba(46,133,195,.3) 1px, transparent 0),
+        linear-gradient(90deg, rgba(46,133,195,.3) 1px, transparent 0);
+        background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
+        background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
+    }
 
+</style>
 
+<!-- 来必力City版安装代码 -->
+<div id="lv-container" data-id="city" data-uid="MTAyMC80NjQzNC8yMjk0NQ==" class="bluePrint1">
+    <script type="text/javascript">
+        (function(d, s) {
+            var j, e = d.getElementsByTagName(s)[0];
+
+            if (typeof LivereTower === 'function') { return; }
+
+            j = d.createElement(s);
+            j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+            j.async = true;
+
+            e.parentNode.insertBefore(j, e);
+        })(document, 'script');
+    </script>
+    <noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
+</div>
+<!-- City版安装代码已完成 -->

@@ -17,13 +17,13 @@
     {% include footer.html %}
     {% include backToTop.html %}
     <script src="{{ site.baseurl }}/simple-jekyll-search.min.js"></script>
-    <script src="{{ " /js/main.js " | prepend: site.baseurl }}" charset="utf-8"></script>
-    <script src="{{ " /js/smooth-scroll.min.js " | prepend: site.baseurl }}" charset="utf-8"></script>
+    <script src="{{ "/js/main.js " | prepend: site.baseurl }}" charset="utf-8"></script>
+    <script src="{{ "/js/smooth-scroll.min.js " | prepend: site.baseurl }}" charset="utf-8"></script>
     <script type="text/javascript">
       SimpleJekyllSearch({
           searchInput: document.getElementById('search-input'),
           resultsContainer: document.getElementById('results-container'),
-          json: '/search.json',
+          json: '{{site.baseurl}}/search.json',
           searchResultTemplate: '<li><i class="fa fa-envelope-o"></i><a href="{url}" title="{tags}">{title}</a></li>', // 文章列表模板
           noResultsText: '没有搜索到文章', // 无搜索数据提示语
           limit: 15, // 返回最大文章数
